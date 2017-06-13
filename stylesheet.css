@@ -16,7 +16,13 @@ nav, a{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 35vh;
 }
 .contact {
   font-family: Hannibal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 35vh;
 }
