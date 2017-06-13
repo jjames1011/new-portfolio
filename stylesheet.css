@@ -8,6 +8,8 @@ header {
   align-items: center;
 }
 nav, a{
+  margin: 1em 3em 0 3em;
+  color: black;
 
 }
 .about_me {
@@ -16,7 +18,15 @@ nav, a{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 35vh;
+  height: 50vh;
+}
+
+.about_me img {
+  display: inline;
+}
+.about_me p !important {
+  display: inline;
+  float: left;
 }
 .contact {
   font-family: Hannibal;
@@ -24,5 +34,5 @@ nav, a{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 35vh;
+  height: 50vh;
 }
