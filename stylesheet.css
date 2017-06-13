@@ -7,3 +7,16 @@ header {
   justify-content: center;
   align-items: center;
 }
+nav, a{
+
+}
+.about_me {
+  font-family: Hannibal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact {
+  font-family: Hannibal;
+}
