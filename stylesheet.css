@@ -22,9 +22,6 @@ a {
 a:hover {
   font-family: Arial;
   margin: inherit; !important;
-
-
-
 }
 .about_me {
   font-family: Hannibal;
@@ -33,6 +30,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   height: 50vh;
+  margin-bottom: 5em;
 }
 
 .about_me img {
