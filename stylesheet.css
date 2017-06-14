@@ -38,6 +38,7 @@ a:hover {
 }
 .about_me p {
   margin: auto 10em 0 10em;
+  line-height: 2.5em;
 }
 .contact {
   font-family: Hannibal;
@@ -46,7 +47,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   height: 75vh;
-  margin-bottom: 25vh;
+  margin-bottom: 15vh;
 }
 .contact a {
   display: inline;
