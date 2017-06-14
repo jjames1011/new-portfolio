@@ -36,9 +36,8 @@ a:hover {
 .about_me img {
   display: inline;
 }
-.about_me p !important {
-  display: inline;
-  float: left;
+.about_me p {
+  
 }
 .contact {
   font-family: Hannibal;
@@ -46,5 +45,13 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  height: 75vh;
+  margin-bottom: 25vh;
+}
+.contact a {
+  display: inline;
+}
+
+footer {
+  text-align: center;
 }
