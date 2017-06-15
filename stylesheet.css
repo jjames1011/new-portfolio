@@ -57,4 +57,7 @@ footer {
   text-align: center;
 }
 
-/*Everything Gallery specific here
+/*Everything Gallery specific here */
+#gallery-header {
+  height: 25vh;
+}
