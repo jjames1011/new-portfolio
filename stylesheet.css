@@ -31,8 +31,14 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  height: 100vh;
   margin-bottom: 5em;
+}
+.about_me h2 {
+
+}
+.about_me img {
+  margin: 2em;
 }
 
 
