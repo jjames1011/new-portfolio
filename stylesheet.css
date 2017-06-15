@@ -6,6 +6,8 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
+
 }
 header p {
   font-size: 16;
