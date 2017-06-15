@@ -1,0 +1,26 @@
+header {
+  font-family: Hannibal;
+  background-size: cover;
+  height: 50vh;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-decoration: underline;
+
+}
+nav, a{
+  margin: 1em 3em 0 3em !important;
+  color: black !important;
+}
+a {
+  padding: 1em;
+  text-decoration: none !important;
+
+}
+a:hover {
+  font-family: Arial;
+  margin: inherit; !important;
+}
