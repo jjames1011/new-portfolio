@@ -6,19 +6,22 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-
 }
+
+
 header p {
+
   font-size: 16;
+
 }
-nav, a{
+nav, .my-header a{
   margin: 1em 3em 0 3em !important;
-  color: black !important;
+  color: white !important;
 }
 a {
   padding: 1em;
   text-decoration: none !important;
+  color: black;
 
 }
 a:hover {
@@ -33,14 +36,16 @@ a:hover {
   align-items: center;
   height: 100vh;
   margin-bottom: 5em;
+  border-top: 1px solid black;
+
 }
 .about_me h2 {
 
 }
 .about_me img {
   margin: 2em;
+  border-radius: 10px;
 }
-
 
 .about_me p {
   margin: auto 15em 0 15em;
@@ -55,6 +60,8 @@ a:hover {
   align-items: center;
   height: 75vh;
   margin-bottom: 15vh;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 .contact a {
   display: inline;
