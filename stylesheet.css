@@ -67,6 +67,7 @@ a:hover {
   display: inline;
 }
 
-footer {
+footer  {
   text-align: center;
+  position: relative;
 }
