@@ -22,11 +22,13 @@ a {
   padding: 1em;
   text-decoration: none !important;
   color: black;
+  
 
 }
 a:hover {
   font-family: Arial;
   margin: inherit; !important;
+  font-size: 20;
 }
 .about_me {
   font-family: Hannibal;
@@ -69,5 +71,5 @@ a:hover {
 
 footer  {
   text-align: center;
-  position: relative;
+
 }
