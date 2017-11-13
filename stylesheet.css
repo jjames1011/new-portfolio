@@ -30,42 +30,52 @@ a:hover {
   margin: inherit; !important;
   font-size: 20;
 }
-.about_me {
+
+.container {
+  height: !important 100vh;
+}
+#about_me {
   font-family: Hannibal;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   margin-bottom: 5em;
   border-top: 1px solid black;
 
 }
-.about_me h2 {
 
+h2{
+  font-family: Hannibal;
+  text-align: center;
+  margin-bottom: 5em;
 }
-.about_me img {
+img {
   margin: 2em;
   border-radius: 10px;
+  max-width: 100%;
+  max-height: auto;
+  vertical-align: middle;
+  display: inline;
 }
 
-.about_me p {
+ p {
   margin: auto 15em 0 15em;
   line-height: 2.5em;
-  text-align: center
+  text-align: center;
+  display: block;
 }
-.contact {
+#contact {
   font-family: Hannibal;
-  display: flex;
-  flex-direction: column;
+  text-align: center;
   justify-content: center;
   align-items: center;
-  height: 75vh;
+  height: 25vh;
   margin-bottom: 15vh;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
-.contact a {
+#contact a {
   display: inline;
 }
 
