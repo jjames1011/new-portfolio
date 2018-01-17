@@ -64,14 +64,16 @@ img {
   line-height: 2.5em;
   text-align: center;
   display: block;
+  font-size: 16px;
 }
 #contact {
   font-family: Hannibal;
   text-align: center;
   justify-content: center;
   align-items: center;
-  height: 25vh;
+  height: 35vh;
   margin-bottom: 15vh;
+  padding-top: 5vh;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
