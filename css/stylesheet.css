@@ -1,7 +1,7 @@
 header {
   font-family: Hannibal;
   background-size: cover;
-  height: 100vh;
+  height: 50vh;
   display: flex !important;
   flex-direction: column;
   justify-content: center;
@@ -70,7 +70,7 @@ img {
   justify-content: center;
   align-items: center;
   height: 35vh;
-  padding: 5vh 0 5vh 0;
+  padding: 8vh 0 10vh 0;
   border-top: 1px solid black;
   /*border-bottom: 1px solid black;*/
 }
