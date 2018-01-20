@@ -21,11 +21,7 @@ a {
   text-decoration: none !important;
 
 }
-a:hover {
-  font-family: Arial;
-  margin: inherit; !important;
-  
-}
+
 footer {
   margin-top: 2em;
 }

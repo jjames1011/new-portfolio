@@ -50,6 +50,9 @@ img {
   display: inline;
   padding: 0;
 }
+#about_me_img {
+  margin:0;
+}
 
  p {
   margin: auto 15em 0 15em;
