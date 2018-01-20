@@ -6,13 +6,10 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 h1 {
   text-decoration: underline;
   font-family: Lobster;
-
-
 }
 nav, a{
   margin: 1em 3em 0 3em !important;
