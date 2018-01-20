@@ -1,3 +1,7 @@
+h1{
+  font-family: Lobster, cursive !important;
+  color: rgb(128,0,0) !important;
+}
 header {
   font-family: Hannibal;
   background-size: cover;
@@ -10,10 +14,10 @@ header {
 
 
 header p {
-
   font-size: 16;
-
+  font-family: Lobster;
 }
+
 nav, .my-header a{
   margin: 1em 3em 0 3em !important;
   color: white !important;
@@ -22,7 +26,10 @@ a {
   padding: 1em;
   text-decoration: none !important;
   color: black;
-
+  font-family: Lobster;
+}
+a:hover {
+  font-size: 20px;
 }
 
 #about_me {
@@ -34,6 +41,9 @@ a {
   padding-top: 2em;
   padding-bottom: 2em;
   border-top: 1px solid black;
+}
+#about_me h1{
+  margin-bottom: 5vh;
 }
 
 h2{
@@ -55,6 +65,7 @@ img {
 }
 
  p {
+  
   margin: auto 15em 0 15em;
   line-height: 2.5em;
   text-align: center;
