@@ -12,16 +12,11 @@ header {
   align-items: center;
 }
 
-
 header p {
   font-size: 16;
   font-family: Lobster;
 }
 
-nav, .my-header a{
-  margin: 1em 3em 0 3em !important;
-  color: white !important;
-}
 a {
   padding: 1em;
   text-decoration: none !important;
@@ -65,7 +60,6 @@ img {
 }
 
  p {
-  
   margin: auto 15em 0 15em;
   line-height: 2.5em;
   text-align: center;
@@ -92,4 +86,5 @@ width:auto;
 
 footer  {
   text-align: center;
+  /*font-family: Lobster;*/
 }
