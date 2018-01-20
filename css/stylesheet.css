@@ -23,12 +23,6 @@ a {
   text-decoration: none !important;
   color: black;
 
-
-}
-a:hover {
-  font-family: Arial;
-  margin: inherit; !important;
-  font-size: 20;
 }
 
 #about_me {
@@ -54,6 +48,7 @@ img {
   max-height: auto;
   vertical-align: middle;
   display: inline;
+  padding: 0;
 }
 
  p {
@@ -63,19 +58,22 @@ img {
   display: block;
   font-size: 16px;
 }
+
 #contact {
   display:block;
   font-family: Hannibal;
   text-align: center;
-  justify-content: center;
-  align-items: center;
+  /*justify-content: center;*/
+  /*align-items: center;*/
   height: 35vh;
-  padding: 8vh 0 10vh 0;
+  padding: 8vh 0 10vh 0vh;
+  margin-bottom: 15vh;
   border-top: 1px solid black;
   /*border-bottom: 1px solid black;*/
 }
-#contact a {
-  display: inline;
+#hover:hover {
+height:70%;
+width:auto;
 }
 
 footer  {
