@@ -1,3 +1,6 @@
+body {
+  background-color: grey;
+}
 h1{
   font-family: Lobster, cursive !important;
   color: rgb(128,0,0) !important;
@@ -27,6 +30,7 @@ a:hover {
   font-size: 20px;
 }
 
+
 #about_me {
   font-family: Hannibal;
   display: flex;
@@ -39,6 +43,10 @@ a:hover {
 }
 #about_me h1{
   margin-bottom: 5vh;
+}
+#about_me a {
+  font-size: 16px;
+  padding: 0;
 }
 
 h2{
@@ -56,7 +64,7 @@ img {
   padding: 0;
 }
 #about_me_img {
-  margin:0;
+  margin-bottom: 2rem;
 }
 
  p {
