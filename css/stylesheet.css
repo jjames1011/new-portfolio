@@ -9,6 +9,7 @@ h2 {
 
 }
 header {
+  background-color: rgba(0,0,0,0.9);
   font-family: Hannibal;
   background-size: cover;
   height: 50vh;
@@ -17,10 +18,15 @@ header {
   justify-content: center;
   align-items: center;
 }
+header h1 {
+  color: white !important;
+  margin-bottom: 1vh !important;
+}
 
 header p {
   font-size: 16;
   font-family: Lobster;
+  color: rgb(128,0,0);
 }
 
 a {
@@ -61,7 +67,9 @@ a:hover {
   color: white;
   width: 100% !important;
 }
-
+.projects h1 {
+  color: White !important;
+}
 .projects li {
   font-size: 16px;
   text-align: left;
@@ -72,7 +80,7 @@ a:hover {
 
 .projects a {
   text-decoration: none;
-  color: white;
+  color: rgb(128,0,0);
 }
 .projects a:hover {
   text-decoration: none;
