@@ -1,7 +1,12 @@
-
 h1{
   font-family: Lobster, cursive !important;
   color: rgb(128,0,0) !important;
+  margin-bottom: 5vh !important;
+}
+h2 {
+  font-family: Lobster, cursive !important;
+  text-decoration: underline;
+
 }
 header {
   font-family: Hannibal;
@@ -27,9 +32,9 @@ a {
 a:hover {
   font-size: 20px;
 }
-
-
 #about_me {
+
+  height: 50vh;
   font-family: Hannibal;
   display: flex;
   flex-direction: column;
@@ -46,7 +51,34 @@ a:hover {
   font-size: 16px;
   padding: 0;
 }
+.projects {
+  padding-top: 2vh;
+  text-align: center;
+  border-top: 1px solid black;
+  margin-bottom: 4vh;
+  padding-bottom: 4vh;
+  background-color: rgba(0,0,0,0.9);
+  color: white;
+  width: 100% !important;
+}
 
+.projects li {
+  font-size: 16px;
+  text-align: left;
+}
+.projects p {
+  line-height: 1.5;
+}
+
+.projects a {
+  text-decoration: none;
+  color: white;
+}
+.projects a:hover {
+  text-decoration: none;
+  font-size: inherit;
+  color: white;
+}
 h2{
   font-family: Hannibal;
   text-align: center;
@@ -61,9 +93,7 @@ img {
   display: inline;
   padding: 0;
 }
-#about_me_img {
-  margin-bottom: 2rem;
-}
+
 
  p {
   margin: auto 15em 0 15em;
@@ -82,7 +112,7 @@ img {
   height: 35vh;
   padding: 8vh 0 10vh 0vh;
   margin-bottom: 15vh;
-  border-top: 1px solid black;
+
   /*border-bottom: 1px solid black;*/
 }
 #hover:hover {
