@@ -6,7 +6,26 @@ h1{
 h2 {
   font-family: Lobster, cursive !important;
   text-decoration: underline;
+  text-align: center;
+  margin-bottom: 5em;
+}
+img {
+  margin: 2em;
+  border-radius: 10px;
+  max-width: 100%;
+  max-height: auto;
+  vertical-align: middle;
+  display: inline;
+  padding: 0;
+}
 
+
+ p {
+  /*margin: auto 15em 0 15em;*/
+  line-height: 2.5em;
+  text-align: center;
+  display: block;
+  font-size: 16px;
 }
 header {
   background-color: rgba(0,0,0,0.9);
@@ -17,6 +36,9 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.container-fluid {
+  width: 100% !important;
 }
 header h1 {
   color: white !important;
@@ -56,7 +78,7 @@ a:hover {
   font-size: 16px;
   padding: 0;
 }
-.projects {
+#projects {
   padding-top: 2vh;
   text-align: center;
   border-top: 1px solid black;
@@ -66,59 +88,34 @@ a:hover {
   color: white;
   width: 100% !important;
 }
-.projects h1 {
+#projects h1 {
   color: White !important;
 }
-.projects li {
+#projects li {
   font-size: 16px;
   text-align: left;
 }
-.projects p {
+#projects p {
   line-height: 1.5;
 }
-
-.projects a {
+#projects a {
   text-decoration: none;
   color: rgb(128,0,0);
 }
-.projects a:hover {
+#projects a:hover {
   text-decoration: none;
   font-size: inherit;
   color: white;
 }
-h2{
-  font-family: Hannibal;
-  text-align: center;
-  margin-bottom: 5em;
-}
-img {
-  margin: 2em;
-  border-radius: 10px;
-  max-width: 100%;
-  max-height: auto;
-  vertical-align: middle;
-  display: inline;
-  padding: 0;
-}
-
-
- p {
-  margin: auto 15em 0 15em;
-  line-height: 2.5em;
-  text-align: center;
-  display: block;
-  font-size: 16px;
-}
-
 #contact {
-  display:block;
+  display:block !important;
   font-family: Hannibal;
   text-align: center;
   /*justify-content: center;*/
   /*align-items: center;*/
   height: 35vh;
   padding: 8vh 0 10vh 0vh;
-  margin-bottom: 15vh;
+  margin-bottom: 10vh;
 
   /*border-bottom: 1px solid black;*/
 }
@@ -129,5 +126,6 @@ width:auto;
 
 footer  {
   text-align: center;
+  display: block;
   /*font-family: Lobster;*/
 }
